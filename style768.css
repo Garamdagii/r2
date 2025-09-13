@@ -1,0 +1,361 @@
+@media only screen {
+  max-width: 768px;
+}
+* {
+  margin: 0%;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-style: normal;
+  font-family: helvetica neue;
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(245, 245, 247, 0.8);
+  backdrop-filter: blur(10px);
+}
+nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 15px;
+  color: black;
+}
+nav > div {
+  display: flex;
+  align-items: center;
+}
+nav .even {
+  width: 48px;
+  height: 48px;
+  padding: 15px;
+}
+.titlecomment {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 0px;
+}
+.titlecomment p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.6px;
+  letter-spacing: -0.374px;
+}
+.section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+.section1 .apple {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  gap: 19px;
+  width: 100vw;
+  height: 650px;
+  padding: 55px;
+}
+.section1 .back1 {
+  background-image: url(./image1/Figure.n768.png);
+}
+.section1 .back2 {
+  background-image: url(./image1/Figure1.n768.png);
+}
+.section1 .back3 {
+  background-image: url(./image1/Figure3.png);
+  justify-content: flex-end;
+}
+.section1 .titlecontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+}
+.color1 {
+  color: #f5f5f7;
+}
+.color2 {
+  color: #1d1d1f;
+}
+.color3 {
+  color: #06c;
+}
+.section1 h2 {
+  font-size: 51.5px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -0.28px;
+}
+.section1 h4 {
+  font-size: 24.5px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.196px;
+}
+.buttoncontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17.42px;
+}
+.text1 {
+  background-color: #0071e3;
+  color: #fff;
+  border: none;
+}
+.text2 {
+  color: #2997ff;
+  border: 1px solid #2997ff;
+  background-color: transparent;
+}
+.text3 {
+  background-color: #f5f5f7;
+  color: #000;
+  border: none;
+}
+.text4 {
+  color: #f5f5f7;
+  border: 1px solid #f5f5f7;
+  background-color: transparent;
+}
+.button1 {
+  display: flex;
+  border-radius: 980px;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 22px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.374px;
+}
+.section2 {
+  background-color: #fff;
+  border-bottom: 12px solid #fff;
+  display: grid;
+  column-gap: 12px;
+  row-gap: 12px;
+  grid-template-columns: auto auto;
+  padding: 12px;
+}
+.figure4 {
+  background-image: url(./image1/Figure4.png);
+  width: 100vw;
+  height: 650px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;
+  padding: 58px 0px 53px 0px;
+}
+.section2 .figure5 {
+  background-image: url(./image1/Figure4.n768.png);
+  justify-content: flex-end;
+}
+.section2 .figure6 {
+  background-image: url(./image1/Figure5.n768.png);
+}
+.section2 .figure7 {
+  background-image: url(./image1/Figure6.n768.png);
+}
+.section2 .figure8 {
+  background-image: url(./image1/Figure7.n768.png);
+}
+.section2 .figure9 {
+  background-image: url(./image1/Figure8.n768.png);
+  justify-content: flex-end;
+}
+.section2 .figure10 {
+  background-image: url(./image1/Figure9.n768.png);
+}
+.section2 .product {
+  width: 366px;
+  height: 490px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;
+  padding: 58px 0px 53px 0px;
+}
+.section2 h2 {
+  font-size: 36.5px;
+  font-weight: 600;
+  line-height: 44px;
+}
+.section2 h4 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.231px;
+}
+.section2 .titlecontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section3 {
+  width: 100%;
+  height: 406px;
+  overflow: hidden;
+}
+.tv {
+  display: flex;
+  gap: 15px;
+}
+.tv input {
+  display: none;
+}
+.slide {
+  width: 100%;
+  transition: 1s;
+}
+.slide img {
+  width: 689px;
+  height: 368px;
+  opacity: 0.5;
+}
+.tvbutton {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 0px;
+}
+.imagebutton {
+  border: 2px solid gray;
+  background: gray;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 1s;
+  padding: 3px;
+}
+.imagebutton:hover {
+  background: black;
+}
+#radio1:checked ~ .enter1 img {
+  opacity: 1;
+}
+#radio2:checked ~ .enter2 img {
+  opacity: 1;
+}
+#radio3:checked ~ .enter3 img {
+  opacity: 1;
+}
+#radio4:checked ~ .enter4 img {
+  opacity: 1;
+}
+#radio5:checked ~ .enter5 img {
+  opacity: 1;
+}
+#radio6:checked ~ .enter6 img {
+  opacity: 1;
+}
+#radio7:checked ~ .enter7 img {
+  opacity: 1;
+}
+#radio8:checked ~ .enter8 img {
+  opacity: 1;
+}
+#radio9:checked ~ .enter9 img {
+  opacity: 1;
+}
+#radio10:checked ~ .enter10 img {
+  opacity: 1;
+}
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+#radio2:checked ~ .first {
+  margin-left: -85%;
+}
+#radio3:checked ~ .first {
+  margin-left: -175%;
+}
+#radio4:checked ~ .first {
+  margin-left: -150%;
+}
+#radio5:checked ~ .first {
+  margin-left: -200%;
+}
+#radio6:checked ~ .first {
+  margin-left: -260%;
+}
+#radio7:checked ~ .first {
+  margin-left: -320%;
+}
+#radio8:checked ~ .first {
+  margin-left: -370%;
+}
+#radio9:checked ~ .first {
+  margin-left: -430%;
+}
+#radio10:checked ~ .first {
+  margin-left: -550%;
+}
+
+.section4 {
+  width: 100%;
+  height: 292px;
+  display: flex;
+  gap: 15px;
+  animation: content 20s linear infinite;
+}
+@keyframes content {
+  0% {
+    transform: translate(100%);
+  }
+  100% {
+    transform: translate(-100%);
+  }
+}
+.section4 > div:hover {
+  filter: brightness(70%);
+}
+.section4 > div {
+  width: 286px;
+  height: 161px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 20px;
+  background-size: cover;
+}
+.section4 .content1 {
+  background-image: url(./image1/content1.png);
+}
+.section4 .content2 {
+  background-color: #1b2632;
+}
+.section4 .content3 {
+  background-image: url(./image1/content3.png);
+}
+.section4 .content4 {
+  background-image: url(./image1/content4.png);
+}
+.section4 .content5 {
+  background-color: #ebb799;
+}
+.section4 p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: -0.224px;
+}
+.section4 .content2 p {
+  display: flex;
+  padding-top: 109px;
+  padding-right: 129px;
+}
